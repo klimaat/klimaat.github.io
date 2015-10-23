@@ -1,0 +1,58 @@
+body {				
+    background: #fff;		
+    color: #888;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-weight: normal;            
+    font-size: 16px;
+    text-shadow: 0pt 2px 5px rgba(0,0,0,0.2);            
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #666;
+    background: #fff;	    
+}
+a:hover {
+    color:#333;
+    background: #fff;	    
+}
+a:active,
+a:focus{
+    position:relative;
+    top:1px;
+}        
+#mobile-wrapper {
+    position: absolute;
+    width: 570px;
+}
+#content{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+h1 {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #008;
+    background: #fff;	    
+}
+h2 {
+    display: inline;
+    font-size: 16px;
+    color: #800;
+    background: #fff;	    
+}
+p {
+    margin: 6px 0px 12px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.rev {
+    unicode-bidi:bidi-override; 
+    direction: rtl;
+}
+.clr {
+    display: none;
+}
